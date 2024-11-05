@@ -16,3 +16,4 @@ future                == 0.15.2
 # This leads to incorrect coverage from codecov as it relies on this attribute
 # to find the source file.
 coverage              >= 4.2, < 4.4
+waitress>=3.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
